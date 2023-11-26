@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Conatct Us</title>
+  </head>
+  <body>
+        <!-- nav -->
+        <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top bg-white p-0 shadow-lg"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./imgs/logol.png" class="w-100" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/about.html"
+                  >ABOUT US</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/platform.html"
+                  >PLATFORM
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/FAQ.html"
+                  >FAQ
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/contact.html"
+                  >Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- contactsection1 -->
+    <section class="contactsection1">
+      <div class="container p-5 text-muted">
+          <div class="row align-items-center">
+              <div class="col-md-9">
+                  <h2 class="dashed pb-2">Contact Us</h2>
+            <p class="mt-3">
+              We would love to hear from you.. Please place your inquiry in
+              message box below. This will ensure your email is handled in a
+              timely manner.
+            </p>
+            <form id="contactForm" class="mt-4">
+              <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control p-2s" id="studentName" placeholder="name@example.com">
+                                <label for="studentName">Stydent Name</label>
+                              </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <select class="form-select" id="studentGender" aria-label="Floating label select example">
+                                  
+                                  <option value="1">Male</option>
+                                  <option value="2">Female</option>
+                                  
+                                </select>
+                                <label for="studentGender">Select Gender </label>
+                              </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="number" class="form-control p-2s" id="studentGuardianNumber" placeholder="name@example.com">
+                                <label for="studentGuardianNumber">Stydent Guardian Number </label>
+                              </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control p-2s" id="studentGrada" placeholder="name@example.com">
+                                <label for="studentGrada">Student Grade  </label>
+                              </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="date" class="form-control p-2s" id="studentDate" placeholder="name@example.com">
+                                <label for="studentDate">Stydent Date   </label>
+                              </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input required type="email" class="form-control p-2s" id="email" placeholder="name@example.com">
+                                <label for="email">Email Guardian    </label>
+                              </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                <label for="floatingTextarea">Comments</label>
+                              </div>
+                        </div>
+                        <div class="col-md-12 mt-5">
+                          <button type="button" onclick="handleSubmit()" class="btn btn-outline-success w-100">Send Data</button>
+                      </div>
+                    </div>
+                </div>
+            </form>
+          </div>
+          <div class="col-md-3 mx-auto  ">
+            <div class="col-md-12">
+                <h4 class="hadline ">USA Office: Massachusetts</h4>
+                <p><i class="fa-solid fa-envelope text-green me-1"></i> sales.usa@skolera.com</p>
+              </div>
+              <div class="col-md-12">
+                <h4 class="hadline">MEA Office: Cairo</h4>
+                <p><i class="fa-solid fa-envelope text-green me-1"></i> sales.mea@skolera.com</p>
+              </div>
+              <div class="col-md-12">
+                <h4 class="hadline">KSA Office: Riyadh</h4>
+                <p><i class="fa-solid fa-envelope text-green me-1"></i>  ksa@skolera.com</p>
+              </div>
+              <div class="col-md-12">
+                <h4 class="hadline">UK Office: London</h4>
+                <p><i class="fa-solid fa-envelope text-green me-1"></i>sales.uk@skolera.com</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="container p-5">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="./imgs/logol.png" class="w-50" alt="" />
+                  <p class="mt-3 fs-5">
+                    Subscribe now to get the latest free educational resources of
+                    Skolera
+                  </p>
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Email Addres..."
+                      aria-label="Recipient's username"
+                      aria-describedby="button-addon2"
+                    />
+                    <button
+                      class="btn btn-success bg-green text-white"
+                      type="button"
+                      id="button-addon2"
+                    >
+                      GO
+                    </button>
+                  </div>
+                  <div class="icons fs-4">
+                    <i
+                      title="facebook"
+                      class="fa-brands text-green mx-1 fa-facebook-f"
+                    ></i>
+                    <i
+                      title="youtube"
+                      class="fa-brands text-green mx-1 fa-youtube"
+                    ></i>
+                    <i
+                      title="linkedin"
+                      class="fa-brands text-green mx-1 fa-linkedin-in"
+                    ></i>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <p class="hadline">USA Office: Massachusetts</p>
+                      <p>
+                        <i class="fa-solid fa-envelope text-green me-1"></i>
+                        sales.usa@skolera.com
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <p class="hadline">MEA Office: Cairo</p>
+                      <p>
+                        <i class="fa-solid fa-envelope text-green me-1"></i>
+                        sales.mea@skolera.com
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <p class="hadline">KSA Office: Riyadh</p>
+                      <p>
+                        <i class="fa-solid fa-envelope text-green me-1"></i>
+                        ksa@skolera.com
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <p class="hadline">UK Office: London</p>
+                      <p>
+                        <i class="fa-solid fa-envelope text-green me-1"></i
+                        >sales.uk@skolera.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-end">
+              <div class="container p-3">
+                2023 © All Rights Reserved.
+                <span class="text-green">Privacy Policy</span> |
+                <span class="text-green">Terms of Use</span>
+              </div>
+            </div>
+          </footer> 
+            
+            
+
+          <script src="./js/bootstrap.bundle.min.js"></script>
+          <script src="./js/jquery-3.7.0.min.js"></script>
+          <script src="./js/particles.js"></script>
+          <script src="./js/main.js"></script>
+  </body>
+</html>
